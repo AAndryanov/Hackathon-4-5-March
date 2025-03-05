@@ -133,7 +133,7 @@
 
 ### Импорт файлов:
 
-Загрузите файлы проекта (например, metrics.py, data.json, Untitled0.ipynb) на Google Диск.
+Загрузите файлы проекта (например, metrics.py, data.json, final_version.ipynb) на Google Диск.
 
 В Google Colab подключите Google Диск:
 
@@ -142,9 +142,9 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-### Открытие файла Untitled0.ipynb:
+### Открытие файла final_version.ipynb:
 
-В Google Colab откройте файл Untitled0.ipynb через меню:
+В Google Colab откройте файл final_version.ipynb через меню:
 Файл → Открыть notebook → Выберите файл на Google Диске.
 
 ### Запуск блоков кода:
