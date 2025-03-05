@@ -129,7 +129,29 @@
 
 ---
 
-## Как запустить
+## Как запустить 
+
+### Импорт файлов:
+
+Загрузите файлы проекта (например, metrics.py, data.json, Untitled0.ipynb) на Google Диск.
+
+В Google Colab подключите Google Диск:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+### Открытие файла Untitled0.ipynb:
+
+В Google Colab откройте файл Untitled0.ipynb через меню:
+Файл → Открыть notebook → Выберите файл на Google Диске.
+
+### Запуск блоков кода:
+
+Запускайте блоки кода по очереди, нажимая на кнопку ▶️ или используя Ctrl + Enter.
+
+## Как запустить dashboard
 
 1. Установить зависимости:
     ```bash
